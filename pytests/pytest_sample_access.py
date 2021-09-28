@@ -5,5 +5,5 @@ def inc(x):
 
 
 def test_answer():
-    os.mkdir(".", "PotatoDir")
+    os.mkdir(".")
     assert inc(3) == 4
