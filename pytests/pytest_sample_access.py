@@ -1,5 +1,6 @@
 import os
 from python_socks.sync import Proxy
+import aiohttp
 
 def inc(x):
     return x + 1
